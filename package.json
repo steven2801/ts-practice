@@ -1,0 +1,20 @@
+{
+  "name": "ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/steven2801/ts-practice.git",
+  "author": "Steven <steven04@ui.ac.id>",
+  "license": "MIT",
+  "scripts": {
+    "start:ts": "tsc -w",
+    "start:js": "nodemon build/index.js",
+    "start": "concurrently yarn:start:*"
+  },
+  "dependencies": {
+    "concurrently": "^7.6.0",
+    "nodemon": "^2.0.22"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2"
+  }
+}
